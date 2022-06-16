@@ -1,0 +1,16 @@
+<body  >
+  <div class="wrapper" *ngFor="let card of response?.results; let i = index">
+    <div class="card">
+      <img [src]="baseImageUrl + card.poster_path" />
+      <div class="info">
+        <h1>Heading</h1>
+        <p>
+          fobis labore fsentium voluptas illo, exercitationem sequi voluptatibus
+          natus quis. Eum consectetur eveniet blanditiis!
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </div>
+
+</body>

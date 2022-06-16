@@ -1,0 +1,23 @@
+.form-signin {
+    position: absolute;
+    max-width: 330px;
+    top: 30%;
+    right: 40%;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    padding: 12px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 20px;
+}
+
+.form-signin input[type="password"] {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding: 12px;
+}
